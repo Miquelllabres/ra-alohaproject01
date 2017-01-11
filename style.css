@@ -40,6 +40,8 @@
 
 }
 input {
+	margin-top: 25px;
+	margin-left: -5px;
     border-radius: 15px;
     width: 300px;
     height: 28px;
@@ -50,9 +52,9 @@ button {
     border-radius: 15px;
     background-color: red;
     border: none;
-    height: 24px;
-    width: 75px;
-    margin-left: -83px
+    height: 25px;
+    width: 85px;
+    margin-left: -92px
 }
 .width-25{
 	float: left;
