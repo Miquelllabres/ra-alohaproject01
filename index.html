@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,300i,500,500i" rel="stylesheet">
 	<meta charset="UTF-8">
 		<title>Aloha Apparel Co.</title>
 
@@ -8,70 +12,76 @@
 	<body>
 		<main>
 			<header>
-				<img src="images/aloha-logo.svg" alt="logo">
-				<img src="images/cart-icon.svg" alt="cart-icon">
+				<img id="logo" src="images/aloha-logo.svg" alt="logo">
+				<img class="cart-icon" src="images/cart-icon.svg" alt="cart-icon">
 			</header>
-			<banner>
-				<img src="images/banner-girl.png" alt="banner-girl">
-				<h5>NEW COLLECTION</h5>
-				<h1>Spring/Summer 2016</h1>
-			</banner>
-			
-			<section class="about">
-				<h2>Hand-Crafted <strong>Styles</strong></h2>
-				<p>Aloha Apparel Co. sells only the finest ready-to-travel clothing.Browse our current selection of products or sign-up for updates below</p>
+			<section class="banner">
+				<div class="banner-girl">
+				</div>
+				<div class="text"><h5>NEW COLLECTION</h5><h1>Spring/Summer 2016</h1></div>
+				
 			</section>
+			
+			<section>
+				<h2>Hand-Crafted <span>Styles</span></h2>
+				<div class="bestsellers">
+				<p>Aloha Apparel Co. sells only the finest ready-to-travel clothing.<br>Browse our current selection of products or sign-up for updates below</p></div>
+			</section>
+			<hr>
 
 			<section id="products">
-				<h2>Most-Loved Products</h2>
-					<div>	
+				<h2>Most-Loved <span>Products</span></h2>
+					<div class="width-25">	
 						<img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
 						<p>DRESSES</p>
 						<h4>Stretch Knit Dress</h4>
-						<p>$169.00</p>
+						<p class="pricetext">$169.00</p>
 					</div>
-					<div>
+					<div class="width-25">
 						<img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
 						<p>SHIRTS</p>
 						<h4>Cotton Blue Shirt</h4>
-						<p>$89.00</p>
+						<p class="pricetext">$89.00</p>
 					</div>
-					<div>
+					<div class="width-25">
 						<img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
 						<p>DRESSES</p>
 						<h4>Checked Strech Dress</h4>
-						<p>$129.00</p>
+						<p class="pricetext">$129.00</p>
 					</div>
-					<div>
+					<div class="width-25">
 						<img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
 						<p>BAGS</p>
 						<h4>Blue Hipster Backpack</h4>
-						<p>$69.00</p>
+						<p class="pricetext">$69.00</p>
 					</div>
 
 			</section>
 
-			<section>
+			<section id="signup">
 				<h2>Sign-up for <span>Updates</span></h2>
-				<p>Stay updated on our latest product releases,be first to find out about upcoming sales, and get free style tips from our blog.Unsubscribe at any time.</p>
+				<p class="signuptext">Stay updated on our latest product releases,be first to find out about upcoming <br>sales, and get free style tips from our blog.Unsubscribe at any time.</p>
 				<input type="email" placeholder="Your Email">
 				<button type="button">Subscribe</button>
 			</section>
 			
 		</main>
 		<footer>
-			<div>
+			<div id="address">
+			<address>
 				<p>&copy; 2016 Aloha Apparel Co.<br>Powered bt HTML and CSS</p>
-				<p>604-604-6040.info@alohaapparel.com</p>
-				<p>1490 W Broadway<br>Vancouver,BC,Canada</p>
+				<p class="contact">604-604-6040.
+				<a href="mailto:info@alohaapparel.com" class="mail">info@alohaapparel.com</a></p>
+				<p class="address">1490 W Broadway<br>Vancouver,BC,Canada</p>
+				</address>
 			</div>
-			<div>
+			<div id="social">
 				<ul>
-					<li>Facebook</li>
-					<li>Twitter</li>
-					<li>Instagram</li>
-					<li>Pinterest</li>
-					<li>Google+</li>
+					<li><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
+					<li><a href="#"><i class="fa fa-pinterest"></i>Pinterest</a></li>
+					<li><a href="#"><i class="fa fa-google-plus-circle"></i>Google+</a></li>
 				</ul>
 			</div>
 
