@@ -1,21 +1,133 @@
 @charset "UTF-8";
+p,a,li{
+	font-family: 'Raleway', sans-serif;
+	font-size: 1rem;
+}
+h1,h2,h3,h4,h5 {
+	font-family: 'Playfair Display', sans-serif;
+}
+h1{
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2rem;
+}
+h3{
+	font-size: 1.5rem;
+}
+h4{
+	font-size: 1.25rem;
+}
+h5{
+	font-size: 1rem;
+}
+
+/*SUBCRIPTION FORM*/
+.sub-form{
+	background-color: white;
+	border-radius: 20px;
+	min-height: 40px;
+	width: 50%;
+	margin: 0 auto;
+	padding: 3px;
+
+
+}
+input.email{
+	font-size: 1rem;
+	background-color: none;
+    width: 75%;
+    min-height: 40px;
+    border: none;
+    margin-left: 25px;
+  
+
+
+}
+input.button{
+	font-size: 1rem;
+	color: white;
+	border-radius: 20px;
+	border: none;
+    width: 20%;
+    background-color: orange;
+    min-height: 40px;
+   
+}
+footer{
+	background-color:#333333;
+	color: white;
+	width: 100%;
+	height: 200px;
+	padding-top: 30px;
+
+}
+
+/*LINKS*/
+
+a:link {
+    color: white;
+    
+    
+}
+
+
+a:visited {
+    color: white;
+   
+}
+
+
+a:hover {
+    color: white;
+   
+}
+
+
+a:active {
+    color: white;
+    text-decoration: none;
+ 
+}
+i{
+	margin-right: 10px;
+}
+/*Diferrent width*/
+
+.width-10{
+	width: 10%
+}
+.width-25{
+	width: 25%;
+	
+}
+/*Float*/
+
+.right{
+	float: right;
+}
+.left{
+	float:left;
+}
+.clear{
+	clear: both;
+}
+/*images*/
+
 #logo{
-	height: 60px;
-	width: 240px;
-	margin-left: -15px;
+	margin-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	
 }
 
 .cart-icon{
-	float: right;
 	height: 50px;
 	width: 50px;
 	padding-top: 15px;
-	
+	margin-right: 15px;
 }
-
+/*FOR BANNER*/
 .banner { 
 	clear: both;
 	background-image: url("images/flower-bkgd.jpg");
@@ -39,58 +151,62 @@
   	z-index: 1;
 
 }
-input {
-	margin-top: 25px;
-	margin-left: -5px;
-    border-radius: 15px;
-    width: 300px;
-    height: 28px;
+/*TEXT STYLE*/
+.textshadow{
+	text-shadow: 1px 1px 4px dimgrey;
+}
+.font-weight{
+	font-weight: 400;
+}
+.fontweight300{
+	font-weight: 300;
+}
+.italic{
+	font-style: italic;
+}
+.bold {
+	font-weight: bold;
+	font-style: normal;
+}
 
-}
-button {
-	color: white;
-    border-radius: 15px;
-    background-color: red;
-    border: none;
-    height: 25px;
-    width: 85px;
-    margin-left: -92px
-}
-.width-25{
-	float: left;
-	width: 25%;
+.text-align-center{
 	text-align: center;
 }
+.text-align-left{
+	text-align: left;
+}
+
 #signup{
 	color: white;
-	clear:both;
-	text-align: center;
 	background-image: url("images/wave-bkgd.jpg");
 	background-position:bottom;
 	background-repeat: no-repeat;
 	width: 100%;
-	min-height: 35vh;
+	min-height: 40vh;
 
 }
-h5{
+.girltext1{
 	font-size: 20px;
 	color: white;
-	padding-top: 230px;
+	padding-top: 220px;
+	padding-bottom: 10px;
 	margin-left: -40px;
+	text-transform: uppercase;
 
  
 
 }
-.text{
-	text-shadow: 1px 1px 1px #FFFFFF;
+.textposition{
+	margin-top: 12px;
 	position: absolute;
 	z-index: 2;
 	width: 100%;
 	text-align: center;
 }
 
-h1{
+.girltext2{
 	font-size: 50px;
+	letter-spacing: 2px;
 	color: white;
 	margin-left: -10px;
 	z-index: 1;
@@ -98,78 +214,49 @@ h1{
 	padding-top: 15px;
 	
 }
-h2{
-	text-align: center;
-	font-size: 30px;
-	padding-top: 40px;
+
+.titles{
+	font-style: italic;
+	padding-top: 50px;
+	padding-bottom: 40px;
+
+}
+.textdecoration{
+	text-decoration: none;
+}
+.blacktext{
+	color: black;         
+}
+.dimgreytext{
+	color: dimgrey;
 }
 
-.bestsellers{
-	text-align: center;
-	padding-top: 30px;
-	padding-bottom: 30px;
+.greytext{
+	color: grey;
 }
-h4{
+.redtext{
 	color: red;
 	font-size: 20px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-.signuptext{
-	color: white;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
+
+
 .pricetext{
+	color: grey;
 	padding-bottom: 50px;
 }
-#social{
-	float: right;
+.social{
 	margin-right: 60px;
+	text-decoration: none;
+	text-align: left;
+
 }
 #address{
 	float: left;
 	margin-left: 60px;
 }
-footer{
-	background-color:#000000;
-	color: white;
-	width: 100%;
-	height: 200px;
-	padding-top: 30px;
 
-}
-span {
-	font-weight: bold;
-}
-li{
-	padding-bottom: 10px;
-}
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-
-a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-
-a:active {
-    color: white;
-    text-decoration: none;
-}
-i{
-	margin-right: 10px;
-}
 
 .contact{
 	margin-top: 25px;
@@ -179,4 +266,39 @@ i{
 }
 .mail{
 	text-decoration: underline;
+}
+/*padding*/
+.padbottom-10{
+	padding-bottom: 10px;
+
+}
+.padbottom-20{
+	padding-bottom: 20px;
+
+}
+.padbottom-40{
+	padding-bottom: 40px;
+}
+.padding-20{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.paddingbottom{
+	padding-bottom: 60px;
+}
+.toppadding{
+	padding-top: 50px;
+}
+.toppadding-10{
+	padding-top: 10px;
+}
+/*margin*/
+.marginleft{
+	margin-left: 60px;
+}
+.top{
+	margin-top: 40px;
+}
+.bottom{
+	margin-bottom: 40px;
 }
