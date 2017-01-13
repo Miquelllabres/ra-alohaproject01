@@ -4,89 +4,121 @@
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Raleway:300,300i,500,500i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,500,500i" rel="stylesheet">
 	<meta charset="UTF-8">
 		<title>Aloha Apparel Co.</title>
 
 	</head>
 	<body>
 		<main>
-			<header>
-				<img id="logo" class="width-10" src="images/aloha-logo.svg" alt="logo">
-				<img class="cart-icon  right" src="images/cart-icon.svg" alt="cart-icon">
+			<header class="clearfix">
+				<img id="logo" class="width-10 left" src="images/aloha-logo.svg" alt="logo">
+				<img class="cart-icon right" src="images/cart-icon.svg" alt="cart-icon">
 			</header>
-			<section class="banner text-align-center">
+
+			<!--BANNER-->
+
+			<section class="banner text-align-center clearfix">
 				<div class="banner-girl">
 				</div>
-				<div class="textposition text-align-center textshadow"><h5 class="girltext1">new collection</h5><h1 class="girltext2">Spring/Summer 2016</h1></div>
+				<div class="textposition"><h5 class="raleway girltext1 textshadow">new collection</h5><h1 class="girltext2 textshadow">Spring/Summer 2016</h1></div>
 				
 			</section>
+
+			<!--CTA SECTION-->
 			
 			<section class="text-align-center">
-				<h2 class="blacktext italic toppadding padbottom-40">Hand-Crafted <span class="bold">Styles</span></h2>
+				<h2 class="font-weight blacktext italic toppadding padbottom-40">Hand-Crafted <span class="bold">Styles</span></h2>
 				<div class="bestsellers">
-				<p class="blacktext padding-20 fontweight300">Aloha Apparel Co. sells only the finest ready-to-travel clothing.</p><p class="fontweight300 blacktext paddingbottom">Browse our current selection of products or sign-up for updates below</p></div>
+				<p class="blacktext padding-20 font-weight">Aloha Apparel Co. sells only the finest ready-to-travel clothing.</p><p class="font-weight blacktext paddingbottom">Browse our current selection of products or sign-up for updates below</p></div>
 			</section>
 			<hr>
 
+			<!--PRODUCTS SECTION-->
+
 			<section id="products" class="text-align-center">
-				<h2 class="blacktext italic toppadding paddingbottom">Most-Loved <span class="bold">Products</span></h2>
+				<h2 class="blacktext italic toppadding paddingbottom font-weight">Most-Loved <span class="bold">Products</span></h2>
 					<div class="width-25 left">	
 						<img src="images/stretch-knit-dress.jpg" alt="stretch-knit-dress">
-						<p class="greytext">DRESSES</p>
-						<h4 class="redtext padding-20">Stretch Knit Dress</h4>
-						<p class="greytext">$169.00</p>
+						<p class="greytext font-weight toppadding-10">DRESSES</p>
+						<h4 class="redtext padding-30">Stretch Knit Dress</h4>
+						<p class="greytext font-weight">$169.00</p>
 					</div>
 					<div class="width-25 left">
 						<img src="images/cotton-blue-shirt.jpg" alt="cotton-blue-shirt">
-						<p class="greytext">SHIRTS</p>
-						<h4 class="redtext padding-20">Cotton Blue Shirt</h4>
-						<p class="greytext">$89.00</p>
+						<p class="greytext font-weight toppadding-10">SHIRTS</p>
+						<h4 class="redtext padding-30">Cotton Blue Shirt</h4>
+						<p class="greytext font-weight">$89.00</p>
 					</div>
 					<div class="width-25 left">
 						<img src="images/checked-stretch-dress.jpg" alt="checked-stretch-dress">
-						<p class="greytext">DRESSES</p>
-						<h4 class="redtext padding-20">Checked Strech Dress</h4>
-						<p class="greytext">$129.00</p>
+						<p class="greytext font-weight toppadding-10">DRESSES</p>
+						<h4 class="redtext padding-30">Checked Strech Dress</h4>
+						<p class="greytext font-weight">$129.00</p>
 					</div>
 					<div class="width-25 left">
 						<img src="images/blue-hipster-backpack.jpg" alt="blue-hipster-backpack">
-						<p class="greytext">BAGS</p>
-						<h4 class="redtext padding-20">Blue Hipster Backpack</h4>
-						<p class="greytext  paddingbottom">$69.00</p>
+						<p class="greytext font-weight toppadding-10">BAGS</p>
+						<h4 class="redtext padding-30">Blue Hipster Backpack</h4>
+						<p class="greytext  paddingbottom font-weight">$69.00</p>
 					</div>
 
 			</section>
 
 			<section id="signup" class="text-align-center clear">
-				<h2 class="italic toppadding padbottom-10">Sign-up for <span class="bold">Updates</span></h2>
-				<p class="padding-20">Stay updated on our latest product releases,be first to find out about upcoming</p><p class="padbottom-20">sales, and get free style tips from our blog.Unsubscribe at any time.</p>
-				<div class="sub-form">
-					<input type="emaill" placeholder="Your Email" class="email left">
-				<input type="submit" value="Subscribe" class="button right bold">
+				<h2 class="italic toppadding padbottom-10 textshadow">Sign-up for <span class="bold textshadow">Updates</span></h2>
+				<p class="padding-20 font-weight">Stay updated on our latest product releases,be first to find out about upcoming</p><p class="padbottom-30 font-weight">sales, and get free style tips from our blog.Unsubscribe at any time.</p>
+			
+				
+			<!--SUBSCRIBE FORM-->
+
+				<div class="sub-form clearfix top">
+					<input type="email" placeholder="Your Email" class="email left">
+				<input type="submit" value="Subscribe" class="button bold right">
 				</div>
+
+			<!--END OF FORM-->	
+		
 			</section>
 			
 		</main>
-		<footer> 
-			<div class="top bottom text-align-left left marginleft">
-			<address>
-				<p class="fontweight300 textshadow">&copy; 2016 Aloha Apparel Co.<br>Powered bt HTML and CSS</p>
+
+		<!--FOOTER-->
+		<footer class="topmargin "> 
+		<div>
+			<div class="left top footermargin">
+			<address class="address">
+				<p class="font-weight textshadow">&copy; 2016 Aloha Apparel Co.<br>Powered bt HTML and CSS</p>
 				<p class="contact">604-604-6040.
 				<a href="mailto:info@alohaapparel.com" class="mail">info@alohaapparel.com</a></p>
-				<p class="address dimgreytext">1490 W Broadway<br>Vancouver,BC,Canada</p>
-				</address>
-			</div>
-			<div class="social right top bottom text-align-center">
-				<ul>
-					<li><a href="#" class="textdecoration"><i class="fa fa-facebook padbottom-10" ></i>Facebook</a></li>
-					<li><a href="#" class="textdecoration"><i class="fa fa-twitter padbottom-10"></i>Twitter</a></li>
-					<li><a href="#" class="textdecoration"><i class="fa fa-instagram padbottom-10"></i>Instagram</a></li>
-					<li><a href="#" class="textdecoration"><i class="fa fa-pinterest padbottom-10"></i>Pinterest</a></li>
-					<li><a href="#" class="textdecoration"><i class="fa fa-google-plus-circle padbottom-10"></i>Google+</a></li>
-				</ul>
+				<p class="dimgreytext">1490 W Broadway<br>Vancouver,BC,Canada</p>
+<!--
+<nav class="container">
+  <a  href="#"><i class="fa fa-facebook"></i></a>
+  <a  href="#"><i class="fa fa-twitter"></i></a>
+  <a  href="#"><i class="fa fa-instagram"></i></a>
+  <a  href="#"><i class="fa fa-pinterest"></i></a>
+  <a  href="#"><i class="fa fa-google-plus"></i></a>
+  
+</nav>
+-->				</address>
 			</div>
 
+			<!--SOCIAL MEDIA LINKS-->
+			
+			<div class="social right top footermargin">
+				<ul class="social">
+					<li><a href="#" class="textdecoration font-weight"><i class="fa fa-facebook padbottom-10 facebook" ></i><span class="hide">Facebook</span></a></li>
+					<li><a href="#" class="textdecoration font-weight"><i class="fa fa-twitter padbottom-10 twitter"></i><span class="hide">Twitter</span></a></li>
+					<li><a href="#" class="textdecoration font-weight"><i class="fa fa-instagram padbottom-10"></i><span class="hide">Instagram</span></a></li>
+					<li><a href="#" class="textdecoration font-weight"><i class="fa fa-pinterest padbottom-10"></i><span class="hide">Pinterest</span></a></li>
+					<li><a href="#" class="textdecoration font-weight"><i class="fa fa-google-plus padbottom-10 google"></i><span class="hide">Google+</span></a></li>
+				</ul>
+			</div>
+		</div>
+
 		</footer>
+		
 	</body>
 </html>

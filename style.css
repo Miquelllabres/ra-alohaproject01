@@ -1,10 +1,19 @@
 @charset "UTF-8";
+.container {
+  width:100%;
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 30px auto;
+  display: none;
+}
+
+
 p,a,li{
 	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
 }
-h1,h2,h3,h4,h5 {
-	font-family: 'Playfair Display', sans-serif;
+h1, h2, h3, h4, h5 {
+	font-family: 'Playfair Display', serif;
 }
 h1{
 	font-size: 2.5rem;
@@ -21,44 +30,54 @@ h4{
 h5{
 	font-size: 1rem;
 }
-
+.raleway {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+}
 /*SUBCRIPTION FORM*/
 .sub-form{
 	background-color: white;
-	border-radius: 20px;
-	min-height: 40px;
-	width: 50%;
+	border-radius: 30px;
+	padding: 2px;
+	width: 35%;
 	margin: 0 auto;
-	padding: 3px;
-
-
 }
+
+.clearfix:after {
+	clear:both;
+	content: " ";
+	display: block;
+}
+
 input.email{
 	font-size: 1rem;
-	background-color: none;
-    width: 75%;
-    min-height: 40px;
+	background:none;
+    width: 70%;
+    min-height: 35px;
     border: none;
-    margin-left: 25px;
-  
-
-
+    border-radius: 30px;
+    margin-left: 15px;
 }
+
 input.button{
 	font-size: 1rem;
 	color: white;
-	border-radius: 20px;
+	border-radius: 30px;
 	border: none;
-    width: 20%;
-    background-color: orange;
-    min-height: 40px;
+    width: 25%;
+    background-color: red;
+    min-height: 35px;
+    margin-top: 1px;
+    margin-right: 2px;
+
    
 }
+/*FOOTER*/
+
 footer{
 	background-color:#333333;
 	color: white;
-	width: 100%;
-	height: 200px;
+	height: 250px;
 	padding-top: 30px;
 
 }
@@ -92,7 +111,7 @@ a:active {
 i{
 	margin-right: 10px;
 }
-/*Diferrent width*/
+/*WIDTH SETTINGS*/
 
 .width-10{
 	width: 10%
@@ -101,7 +120,7 @@ i{
 	width: 25%;
 	
 }
-/*Float*/
+/*FLOAT SETTINGS*/
 
 .right{
 	float: right;
@@ -112,7 +131,7 @@ i{
 .clear{
 	clear: both;
 }
-/*images*/
+/*IMAGES*/
 
 #logo{
 	margin-left: 10px;
@@ -124,19 +143,22 @@ i{
 .cart-icon{
 	height: 50px;
 	width: 50px;
-	padding-top: 15px;
-	margin-right: 15px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+
 }
 /*FOR BANNER*/
 .banner { 
-	clear: both;
-	background-image: url("images/flower-bkgd.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	min-height: 65vh;
+
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2),transparent),url("images/flower-bkgd.jpg");
+	background-size: contain;
+	min-height: 70vh;
 	position: relative;
 
 }
+
 .banner-girl{
 	position: absolute;
 	background-position: top;
@@ -156,11 +178,9 @@ i{
 	text-shadow: 1px 1px 4px dimgrey;
 }
 .font-weight{
-	font-weight: 400;
-}
-.fontweight300{
 	font-weight: 300;
 }
+
 .italic{
 	font-style: italic;
 }
@@ -186,26 +206,24 @@ i{
 
 }
 .girltext1{
-	font-size: 20px;
 	color: white;
-	padding-top: 220px;
+	padding-top: 225px;
 	padding-bottom: 10px;
-	margin-left: -40px;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 
- 
-
-}
+ }
 .textposition{
 	margin-top: 12px;
 	position: absolute;
 	z-index: 2;
 	width: 100%;
 	text-align: center;
+
 }
 
 .girltext2{
-	font-size: 50px;
+	font-size: 60px;
 	letter-spacing: 2px;
 	color: white;
 	margin-left: -10px;
@@ -247,27 +265,23 @@ i{
 	padding-bottom: 50px;
 }
 .social{
-	margin-right: 60px;
 	text-decoration: none;
 	text-align: left;
 
 }
-#address{
+.address{
 	float: left;
-	margin-left: 60px;
-}
+	}
 
 
 .contact{
 	margin-top: 25px;
 }
-.address{
-	margin-top: 25px;
-}
+
 .mail{
 	text-decoration: underline;
 }
-/*padding*/
+/*PADDING SETTINGS*/
 .padbottom-10{
 	padding-bottom: 10px;
 
@@ -279,6 +293,14 @@ i{
 .padbottom-40{
 	padding-bottom: 40px;
 }
+.padbottom-30{
+	padding-bottom: 30px;
+}
+
+.padding-30{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
 .padding-20{
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -287,18 +309,162 @@ i{
 	padding-bottom: 60px;
 }
 .toppadding{
-	padding-top: 50px;
+	padding-top: 30px;
 }
 .toppadding-10{
 	padding-top: 10px;
 }
-/*margin*/
+/*MARGIN SETTINGS*/
+.footermargin{
+	margin:0 30px;
+}
+.topmargin{
+	margin-top: 10px;
+}
+
+}
+.bot-margin-10{
+	margin-bottom: 10px;
+}
 .marginleft{
-	margin-left: 60px;
+	margin-left: 40px;
 }
 .top{
-	margin-top: 40px;
+	margin-top: 30px;
+}
+.top-20{
+	margin-top: 22px;
 }
 .bottom{
 	margin-bottom: 40px;
+}
+/*SOCIAL*/
+.facebook{
+	width: 11px;
+}
+.twitter{
+	width: 10px;
+}
+.google{
+	width: 13px;
+}
+
+
+/*****************/
+/***RESPONVIVE***/
+
+@media screen and (max-width: 1050px)  {
+	#logo{
+		width: 30%;
+	}
+	.cart-icon{
+		width: 70px;
+		height: 70px;
+		margin-top: 10px;
+	
+	}
+	.banner-girl{
+		width: 30%;
+		margin-left: -14%;
+	}
+	.banner{
+		background-position: center;
+		background-size: cover;
+
+
+	}
+	.girltext1{
+		padding-top: 175px;
+		font-size: 22px;
+
+	}
+	.girltext2{
+		font-size: 55px;
+	}
+	/*SUBSCRIBE FORM*/
+	
+	.sub-form{
+		width:80%;
+
+	}
+	#signup{
+		min-height:45vh;
+	}
+	.top-20{
+		margin-bottom: 40px;
+	}
+	h2{
+		font-size: 45px;
+	}
+	/*PRODUCTS*/
+	.width-25{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px)  {
+	#logo{
+		width: 30%;
+	}
+	.cart-icon{
+		width: 45px;
+		height: 45px
+		
+	}
+
+	/*BANNER*/
+	.banner-girl {
+		width: 40%;
+		margin-left: -18%;
+		max-height: 90%;
+	}
+	.banner{
+		background-position: center;
+		background-size: cover;
+			}
+	.girltext1{
+		padding-top: 170px;
+
+	}
+
+	.girltext2{
+		font-size: 40px;
+	}
+	/*SUBSCRIBE FORM*/
+	.sub-form{
+		width: 90%;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p{
+		font-size: 14px;
+		}
+	#signup{
+		min-height: 40vh;
+	}
+	/*PRODUCTS*/
+	.width-25{
+		
+		width: 100%;
+	}
+	
+	/*li{
+		display:none;
+	}*/
+	.container{
+		display:table;
+	}
+	.hide{
+		display: none;
+	}
+
+	li{	
+	float:left;
+	}
+	.social{
+		text-align: center;
+		width: 100%;
+		margin: 0 auto;
+		position: center;
+	}
 }
