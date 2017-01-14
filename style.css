@@ -11,6 +11,11 @@ i{
 p{
 	margin-bottom: 2vh;
 }
+br {  }
+br.desktop{
+	display:block; margin-top:10px; line-height:35px;
+}
+
 h1, h2, h3, h4{
 	font-family: 'Playfair Display', serif;
 }
@@ -34,10 +39,6 @@ h4{
 }
 h5{
 	font-size: 1.25rem;
-}
-.ralewa{
-	font-family: 'Raleway', sans-serif;
-	font-size: 1.5vh;
 }
 a{
 	color:white;
@@ -75,7 +76,7 @@ a{
 	padding-top: 5vh;
 }
 .bottom-padding{
-	padding-bottom: 5vh;
+	padding-bottom: 3vh;
 }
 /*****************/
 /*MARGIN SETTINGS*/
@@ -149,7 +150,7 @@ a{
 	background-position:bottom;
 	background-repeat: no-repeat;
 	width: 100%;
-	min-height: 40vh;
+	min-height: 36vh;
 }
 .sub-form{
 	background-color: white;
@@ -312,9 +313,13 @@ footer{
 		font-size: 0.75rem;
 		margin-bottom: 4vh;
 	}
+	br.mobile{
+		display:none;
+	}
 	.mobile{
 		margin:5%;
-		font-size: 0.9rem;
+		font-size: 0.75rem;
+		line-height: 30px;
 	}
 	/*BANNER*/
 	.banner-girl {
@@ -340,7 +345,7 @@ footer{
 	}
 	
 	#signup{
-		min-height: 50vh;
+		min-height: 47vh;
 	}
 	input.email{
 		width:60%;
