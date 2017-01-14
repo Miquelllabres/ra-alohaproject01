@@ -11,11 +11,9 @@ i{
 p{
 	margin-bottom: 2vh;
 }
-br {  }
 br.desktop{
 	display:block; margin-top:10px; line-height:35px;
 }
-
 h1, h2, h3, h4{
 	font-family: 'Playfair Display', serif;
 }
@@ -150,7 +148,7 @@ a{
 	background-position:bottom;
 	background-repeat: no-repeat;
 	width: 100%;
-	min-height: 36vh;
+	min-height: 40vh;
 }
 .sub-form{
 	background-color: white;
@@ -295,7 +293,7 @@ footer{
 
 	}
 	#signup{
-		min-height:50vh;
+		min-height:46vh;
 	}
 	p{
 		font-size:1rem;
@@ -345,7 +343,7 @@ footer{
 	}
 	
 	#signup{
-		min-height: 47vh;
+		min-height: 49vh;
 	}
 	input.email{
 		width:60%;
