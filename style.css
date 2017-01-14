@@ -1,19 +1,24 @@
 @charset "UTF-8";
-.container {
-  width:100%;
-  text-align: center;
-  letter-spacing: 5px;
-  margin: 30px auto;
-  display: none;
-}
 
-
-p,a,li{
+p,a,li,h5{
 	font-family: 'Raleway', sans-serif;
 	font-size: 1rem;
 }
-h1, h2, h3, h4, h5 {
+i{
+	margin: 0.50vh;
+	color:white;
+}
+p{
+	margin-bottom: 2vh;
+}
+h1, h2, h3, h4{
 	font-family: 'Playfair Display', serif;
+}
+h2{
+	margin:6vh;
+}
+h4{
+	margin-bottom: 2.5vh;
 }
 h1{
 	font-size: 2.5rem;
@@ -28,100 +33,27 @@ h4{
 	font-size: 1.25rem;
 }
 h5{
-	font-size: 1rem;
+	font-size: 1.25rem;
 }
-.raleway {
+.ralewa{
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
+	font-size: 1.5vh;
 }
-/*SUBCRIPTION FORM*/
-.sub-form{
-	background-color: white;
-	border-radius: 30px;
-	padding: 2px;
-	width: 35%;
-	margin: 0 auto;
+a{
+	color:white;
 }
-
-.clearfix:after {
-	clear:both;
-	content: " ";
-	display: block;
-}
-
-input.email{
-	font-size: 1rem;
-	background:none;
-    width: 70%;
-    min-height: 35px;
-    border: none;
-    border-radius: 30px;
-    margin-left: 15px;
-}
-
-input.button{
-	font-size: 1rem;
-	color: white;
-	border-radius: 30px;
-	border: none;
-    width: 25%;
-    background-color: red;
-    min-height: 35px;
-    margin-top: 1px;
-    margin-right: 2px;
-
-   
-}
-/*FOOTER*/
-
-footer{
-	background-color:#333333;
-	color: white;
-	height: 250px;
-	padding-top: 30px;
-
-}
-
-/*LINKS*/
-
-a:link {
-    color: white;
-    
-    
-}
-
-
-a:visited {
-    color: white;
-   
-}
-
-
-a:hover {
-    color: white;
-   
-}
-
-
-a:active {
-    color: white;
-    text-decoration: none;
- 
-}
-i{
-	margin-right: 10px;
-}
+/****************/
 /*WIDTH SETTINGS*/
-
+/****************/
 .width-10{
 	width: 10%
 }
 .width-25{
-	width: 25%;
-	
+	width: 25%;	
 }
+/****************/
 /*FLOAT SETTINGS*/
-
+/****************/
 .right{
 	float: right;
 }
@@ -131,34 +63,48 @@ i{
 .clear{
 	clear: both;
 }
-/*IMAGES*/
-
-#logo{
-	margin-left: 10px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	
+.clearfix:after {
+	clear:both;
+	content: " ";
+	display: block;
 }
-
-.cart-icon{
-	height: 50px;
-	width: 50px;
-	margin-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 10px;
-
-
+/******************/
+/*PADDING SETTINGS*/
+/*****************/
+.top-padding{
+	padding-top: 5vh;
 }
+.bottom-padding{
+	padding-bottom: 5vh;
+}
+/*****************/
+/*MARGIN SETTINGS*/
+/*****************/
+.top{
+	margin-top: 5vh;
+}
+.bottom-margin-large{
+	margin-bottom: 5vh;
+}
+.margin-20{
+	margin: 5vh;
+}
+/********/
+/*HEADER*/
+/********/
+.logos{
+	height:8vh;
+	margin:10px; 
+}
+/*************/
 /*FOR BANNER*/
+/************/
 .banner { 
-
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2),transparent),url("images/flower-bkgd.jpg");
 	background-size: contain;
 	min-height: 70vh;
 	position: relative;
-
 }
-
 .banner-girl{
 	position: absolute;
 	background-position: top;
@@ -171,31 +117,32 @@ i{
  	margin-left: -10%;
   	text-align: center;
   	z-index: 1;
-
 }
-/*TEXT STYLE*/
-.textshadow{
-	text-shadow: 1px 1px 4px dimgrey;
-}
-.font-weight{
-	font-weight: 300;
-}
-
-.italic{
-	font-style: italic;
-}
-.bold {
-	font-weight: bold;
-	font-style: normal;
-}
-
-.text-align-center{
+.girltext1{
+	color: white;
+	padding-top: 28vh;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+ }
+.textposition{
+	margin-top: 2vh;
+	position: absolute;
+	z-index: 2;
+	width: 100%;
 	text-align: center;
 }
-.text-align-left{
-	text-align: left;
+.girltext2{
+	font-size: 4rem;
+	letter-spacing: 2px;
+	color: white;
+	margin-left: -10px;
+	z-index: 1;
+	text-align: center;
+	padding-top: 3vh;
 }
-
+/******************/
+/*SUBCRIPTION FORM*/
+/******************/
 #signup{
 	color: white;
 	background-image: url("images/wave-bkgd.jpg");
@@ -203,44 +150,60 @@ i{
 	background-repeat: no-repeat;
 	width: 100%;
 	min-height: 40vh;
-
 }
-.girltext1{
+.sub-form{
+	background-color: white;
+	border-radius: 30px;
+	padding: 2px;
+	width: 35%;
+	margin: 0 auto;
+}
+input.email{
+	font-size: 1rem;
+	background:none;
+    width: 70%;
+    min-height: 35px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 15px;
+}
+input.button{
+	font-size: 1rem;
 	color: white;
-	padding-top: 225px;
-	padding-bottom: 10px;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-
- }
-.textposition{
-	margin-top: 12px;
-	position: absolute;
-	z-index: 2;
-	width: 100%;
-	text-align: center;
-
+	border-radius: 30px;
+	border: none;
+    width: 25%;
+    background-color: red;
+    min-height: 35px;
+    margin-top: 1px;
+    margin-right: 2px;
 }
-
-.girltext2{
-	font-size: 60px;
-	letter-spacing: 2px;
-	color: white;
-	margin-left: -10px;
-	z-index: 1;
-	text-align: center;
-	padding-top: 15px;
-	
+/************/
+/*TEXT STYLE*/
+/************/
+.textshadow{
+	text-shadow: 1px 1px 4px dimgrey;
 }
-
-.titles{
+.font-weight{
+	font-weight: 300;
+}
+.italic{
 	font-style: italic;
-	padding-top: 50px;
-	padding-bottom: 40px;
-
 }
+.bold {
+	font-weight: bold;
+	font-style: normal;
+}
+.text-align-center{
+	text-align: center;
+}
+.text-align-left{
+	text-align: left;
+}
+
 .textdecoration{
 	text-decoration: none;
+	padding:0 10px;
 }
 .blacktext{
 	color: black;         
@@ -248,124 +211,64 @@ i{
 .dimgreytext{
 	color: dimgrey;
 }
-
 .greytext{
 	color: grey;
 }
 .redtext{
 	color: red;
-	font-size: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
-
-
 .pricetext{
 	color: grey;
-	padding-bottom: 50px;
+}
+/********/
+/*FOOTER*/
+/********/
+footer{
+	background-color:#333333;
+	color: white;
+	min-height: 30vh;
 }
 .social{
-	text-decoration: none;
 	text-align: left;
-
+	margin: 5vh 5vh;
 }
 .address{
 	float: left;
 	}
-
-
-.contact{
-	margin-top: 25px;
-}
-
 .mail{
 	text-decoration: underline;
+	color:white;
+	font-size: 1rem;
 }
-/*PADDING SETTINGS*/
-.padbottom-10{
-	padding-bottom: 10px;
-
-}
-.padbottom-20{
-	padding-bottom: 20px;
-
-}
-.padbottom-40{
-	padding-bottom: 40px;
-}
-.padbottom-30{
-	padding-bottom: 30px;
-}
-
-.padding-30{
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-.padding-20{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-.paddingbottom{
-	padding-bottom: 60px;
-}
-.toppadding{
-	padding-top: 30px;
-}
-.toppadding-10{
-	padding-top: 10px;
-}
-/*MARGIN SETTINGS*/
-.footermargin{
-	margin:0 30px;
-}
-.topmargin{
-	margin-top: 10px;
-}
-
-}
-.bot-margin-10{
-	margin-bottom: 10px;
-}
-.marginleft{
-	margin-left: 40px;
-}
-.top{
-	margin-top: 30px;
-}
-.top-20{
-	margin-top: 22px;
-}
-.bottom{
-	margin-bottom: 40px;
-}
+/********/
 /*SOCIAL*/
+/********/
+
+.pinterest{
+	width: 20px;
+}
+.instagram{
+	width:20px;
+}
 .facebook{
-	width: 11px;
+	width:20px;
 }
 .twitter{
-	width: 10px;
+	width: 20px;
 }
 .google{
-	width: 13px;
+	width: 20px;
 }
-
-
 /*****************/
 /***RESPONVIVE***/
-
+/****************/
 @media screen and (max-width: 1050px)  {
-	#logo{
-		width: 30%;
-	}
-	.cart-icon{
-		width: 70px;
-		height: 70px;
-		margin-top: 10px;
-	
+	.width-25{
+		width: 50%;
 	}
 	.banner-girl{
-		width: 30%;
-		margin-left: -14%;
+		width: 40%;
+		margin-left: -22%;
 	}
 	.banner{
 		background-position: center;
@@ -374,12 +277,15 @@ i{
 
 	}
 	.girltext1{
-		padding-top: 175px;
-		font-size: 22px;
+		padding-top: 30vh;
+		font-size: 1.5rem;
 
 	}
 	.girltext2{
-		font-size: 55px;
+		font-size: 4rem;
+	}
+	.textposition{
+		padding-right: 10px;
 	}
 	/*SUBSCRIBE FORM*/
 	
@@ -388,33 +294,32 @@ i{
 
 	}
 	#signup{
-		min-height:45vh;
+		min-height:50vh;
 	}
-	.top-20{
-		margin-bottom: 40px;
-	}
-	h2{
-		font-size: 45px;
+	p{
+		font-size:1rem;
 	}
 	/*PRODUCTS*/
-	.width-25{
-		width: 50%;
-	}
+
+	
 }
 @media screen and (max-width: 600px)  {
-	#logo{
-		width: 30%;
+	/*FONT RULES*/
+	h2{
+		font-size: 1.75rem;
 	}
-	.cart-icon{
-		width: 45px;
-		height: 45px
-		
+	p{
+		font-size: 0.75rem;
+		margin-bottom: 4vh;
 	}
-
+	.mobile{
+		margin:5%;
+		font-size: 0.9rem;
+	}
 	/*BANNER*/
 	.banner-girl {
-		width: 40%;
-		margin-left: -18%;
+		width: 60%;
+		margin-left: -28%;
 		max-height: 90%;
 	}
 	.banner{
@@ -422,49 +327,62 @@ i{
 		background-size: cover;
 			}
 	.girltext1{
-		padding-top: 170px;
+		font-size: 1rem;
 
 	}
 
 	.girltext2{
-		font-size: 40px;
+		font-size: 2rem;
 	}
 	/*SUBSCRIBE FORM*/
 	.sub-form{
 		width: 90%;
 	}
-	h2{
-		font-size: 30px;
-	}
-	p{
-		font-size: 14px;
-		}
+	
 	#signup{
-		min-height: 40vh;
+		min-height: 50vh;
+	}
+	input.email{
+		width:60%;
+		font-size: 0.75rem;
+	}
+	input.button{
+		width:30%;
+		font-size: 0.75rem;
 	}
 	/*PRODUCTS*/
 	.width-25{
-		
-		width: 100%;
+			width: 100%;
 	}
 	
-	/*li{
-		display:none;
-	}*/
-	.container{
-		display:table;
+	/*FOOTER*/
+	footer{
+		text-align: center;
+		min-height: 40vh;
 	}
 	.hide{
 		display: none;
 	}
-
-	li{	
-	float:left;
-	}
-	.social{
+	.address{
+		float:right;
 		text-align: center;
-		width: 100%;
-		margin: 0 auto;
-		position: center;
+		}
+	.social{
+		margin:0 20%;
+		float: right;
+		text-align: center;
+		}
+	
+	li{	
+		width: 20%;
+		float:left;
+		text-align:center
+		}
+	.mail{
+		font-size: 0.75rem;
 	}
+	.top{
+	margin-top: 3vh;
+	}
+
 }
