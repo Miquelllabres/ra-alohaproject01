@@ -80,7 +80,7 @@ a{
 /*MARGIN SETTINGS*/
 /*****************/
 .top{
-	margin-top: 5vh;
+	margin-top:10px;
 }
 .bottom-margin-large{
 	margin-bottom: 5vh;
@@ -99,7 +99,7 @@ a{
 /*FOR BANNER*/
 /************/
 .banner { 
-	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2),transparent),url("images/flower-bkgd.jpg");
+	background: linear-gradient(rgba(0,0,0,0.4),transparent),url("images/flower-bkgd.jpg");
 	background-size: contain;
 	min-height: 70vh;
 	position: relative;
@@ -222,6 +222,22 @@ input.button{
 /********/
 /*FOOTER*/
 /********/
+.wrapper { 
+  overflow:hidden;
+}
+
+
+#one {
+  float:left; 
+  margin-right:20px;
+  width:50vh;
+
+}
+#two { 
+float:right;
+  overflow:hidden;
+}
+
 footer{
 	background-color:#333333;
 	color: white;
@@ -231,9 +247,7 @@ footer{
 	text-align: left;
 	margin: 5vh 5vh;
 }
-.address{
-	float: left;
-	}
+
 .mail{
 	text-decoration: underline;
 	color:white;
@@ -276,7 +290,7 @@ footer{
 
 	}
 	.girltext1{
-		padding-top: 30vh;
+		padding-top: 40vh;
 		font-size: 1.5rem;
 
 	}
@@ -293,7 +307,7 @@ footer{
 
 	}
 	#signup{
-		min-height:46vh;
+		min-height:43vh;
 	}
 	p{
 		font-size:1rem;
@@ -316,7 +330,7 @@ footer{
 	}
 	.mobile{
 		margin:5%;
-		font-size: 0.75rem;
+		font-size: 0.8rem;
 		line-height: 30px;
 	}
 	/*BANNER*/
@@ -330,8 +344,8 @@ footer{
 		background-size: cover;
 			}
 	.girltext1{
+		margin-top: -10vh;
 		font-size: 1rem;
-
 	}
 
 	.girltext2{
@@ -343,7 +357,7 @@ footer{
 	}
 	
 	#signup{
-		min-height: 49vh;
+		min-height: 50vh;
 	}
 	input.email{
 		width:60%;
@@ -351,41 +365,44 @@ footer{
 	}
 	input.button{
 		width:30%;
-		font-size: 0.75rem;
+		font-size: 1rem;
 	}
 	/*PRODUCTS*/
 	.width-25{
 			width: 100%;
 	}
-	
+
 	/*FOOTER*/
+	#one { 
+   text-align:center;
+    float: none;
+    margin-right:0;
+    width:auto;  
+  }
+   #two { 
+   text-align:center;
+    float: none;
+    margin-right:0;
+    width:auto;
+}
+
 	footer{
 		text-align: center;
 		min-height: 40vh;
 	}
+
 	.hide{
 		display: none;
 	}
-	.address{
-		float:right;
-		text-align: center;
-		}
-	.social{
-		margin:0 20%;
-		float: right;
-		text-align: center;
-		}
 	
 	li{	
-		width: 20%;
-		float:left;
-		text-align:center
+		display: inline;
 		}
 	.mail{
 		font-size: 0.75rem;
 	}
-	.top{
-	margin-top: 3vh;
+	.social{
+		text-align: center;
 	}
-
+	
 }
