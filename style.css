@@ -290,7 +290,7 @@ footer{
 
 	}
 	.girltext1{
-		padding-top: 40vh;
+		padding-top: 35vh;
 		font-size: 1.5rem;
 
 	}
@@ -307,7 +307,7 @@ footer{
 
 	}
 	#signup{
-		min-height:43vh;
+		background-size: 150%;
 	}
 	p{
 		font-size:1rem;
@@ -319,7 +319,7 @@ footer{
 @media screen and (max-width: 600px)  {
 	/*FONT RULES*/
 	h2{
-		font-size: 1.75rem;
+		font-size: 1.50rem;
 	}
 	p{
 		font-size: 0.75rem;
@@ -344,20 +344,26 @@ footer{
 		background-size: cover;
 			}
 	.girltext1{
-		margin-top: -10vh;
+		margin-top: -12vh;
 		font-size: 1rem;
 	}
 
 	.girltext2{
-		font-size: 2rem;
+		font-size: 1.75rem;
 	}
 	/*SUBSCRIBE FORM*/
 	.sub-form{
 		width: 90%;
 	}
+	.top-padding{
+		padding-top: 3vh;
+	}
+	.bottom-padding{
+	padding-bottom: 1vh;
+}
 	
 	#signup{
-		min-height: 50vh;
+		background-size: 350%;
 	}
 	input.email{
 		width:60%;
