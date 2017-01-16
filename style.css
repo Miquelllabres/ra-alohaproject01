@@ -71,7 +71,7 @@ a{
 /*PADDING SETTINGS*/
 /*****************/
 .top-padding{
-	padding-top: 5vh;
+	padding-top: 7vh;
 }
 .bottom-padding{
 	padding-bottom: 3vh;
@@ -308,6 +308,7 @@ footer{
 	}
 	#signup{
 		background-size: 140%;
+		max-height:30vh;
 	}
 	p{
 		font-size:1rem;
