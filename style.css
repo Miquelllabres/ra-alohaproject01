@@ -353,16 +353,7 @@ footer{
 	.sub-form{
 		width: 90%;
 	}
-	.top-padding{
-		padding-top: 3vh;
-	}
-	.bottom-padding{
-	padding-bottom: 1vh;
-}
 	
-	#signup{
-		background-size:300%;
-	}
 	input.email{
 		width:60%;
 		font-size: 0.75rem;
