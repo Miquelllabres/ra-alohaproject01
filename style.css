@@ -275,7 +275,7 @@ footer{
 /*****************/
 /***RESPONVIVE***/
 /****************/
-@media screen and (max-width: 1050px)  {
+@media screen and (max-width: 1050px) and (min-width: 600px){
 	.width-25{
 		width: 50%;
 	}
@@ -307,7 +307,7 @@ footer{
 
 	}
 	#signup{
-		background-size: 150%;
+		background-size: 140%;
 	}
 	p{
 		font-size:1rem;
@@ -325,17 +325,15 @@ footer{
 		font-size: 0.75rem;
 		margin-bottom: 4vh;
 	}
-	br.mobile{
-		display:none;
-	}
+
 	.mobile{
 		margin:5%;
-		font-size: 0.8rem;
+		font-size: .9rem;
 		line-height: 30px;
 	}
 	/*BANNER*/
 	.banner-girl {
-		width: 60%;
+		width: 50%;
 		margin-left: -28%;
 		max-height: 90%;
 	}
@@ -344,7 +342,6 @@ footer{
 		background-size: cover;
 			}
 	.girltext1{
-		margin-top: -12vh;
 		font-size: 1rem;
 	}
 
@@ -363,7 +360,7 @@ footer{
 }
 	
 	#signup{
-		background-size: 350%;
+		background-size:300%;
 	}
 	input.email{
 		width:60%;
