@@ -345,6 +345,10 @@ footer{
 	.girltext1{
 		font-size: 1rem;
 	}
+	#signup{
+		background-size: 140%;
+		max-height:30vh;
+	}
 
 	.girltext2{
 		font-size: 1.75rem;
