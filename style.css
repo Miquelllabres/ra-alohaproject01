@@ -148,7 +148,7 @@ a{
 	background-position:bottom;
 	background-repeat: no-repeat;
 	width: 100%;
-	min-height: 40vh;
+	min-height: 50vh;
 }
 .sub-form{
 	background-color: white;
@@ -305,7 +305,8 @@ footer{
 		font-size: 2rem;
 	}
 	#signup{
-		background-size: 210%;
+		background-size: 250%;
+		min-height: 45vh;
 		
 	}
 
@@ -326,7 +327,7 @@ footer{
 		font-size: 1rem;
 	}
 	.bottom-padding {
-    padding-bottom: 0;
+    padding-bottom: ;
 }
 	/*PRODUCTS*/
 	.width-25{
@@ -422,6 +423,8 @@ footer{
 	}
 	#signup{
 		background-size: 340%;
+		min-height: 40vh;
+
 	}
 	
 	h2{
