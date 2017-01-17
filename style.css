@@ -289,7 +289,7 @@ footer{
 
 	.mobile{
 		font-size: 1.5rem;
-		line-height: 30px;
+		line-height: 40px;
 	}
 	/*BANNER*/
 	.banner-girl {
@@ -305,7 +305,7 @@ footer{
 		font-size: 2rem;
 	}
 	#signup{
-		background-size: 220%;
+		background-size: 210%;
 		
 	}
 
@@ -325,6 +325,9 @@ footer{
 		width:30%;
 		font-size: 1rem;
 	}
+	.bottom-padding {
+    padding-bottom: 0;
+}
 	/*PRODUCTS*/
 	.width-25{
 			width: 50%;
@@ -362,6 +365,9 @@ footer{
 	.social{
 		text-align: center;
 	}
+	br.hide{
+	display: none;
+}
 	
 }
 @media screen and (max-width: 600px) {
